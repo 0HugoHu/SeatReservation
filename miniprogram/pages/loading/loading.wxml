@@ -1,0 +1,26 @@
+<!--miniprogram/pages/loading/loading.wxml-->
+<view>
+  <view  class='nav bg-white' style='height:{{navH}}px'>
+    <view class='nav-title'>
+      栗子选座
+      <image bindtap='navigationButton' src='../../images/back.png'  style='margin-bottom:3rpx' mode='aspectFit' class='back' ></image> 
+    </view>
+  </view>
+ 
+  <view class='hidden' style='margin-top:30vw'>
+  <view class="sk-cube-grid">
+    <view class="sk-cube sk-cube1"></view>
+    <view class="sk-cube sk-cube2"></view>
+    <view class="sk-cube sk-cube3"></view>
+    <view class="sk-cube sk-cube4"></view>
+    <view class="sk-cube sk-cube5"></view>
+    <view class="sk-cube sk-cube6"></view>
+    <view class="sk-cube sk-cube7"></view>
+    <view class="sk-cube sk-cube8"></view>
+    <view class="sk-cube sk-cube9"></view>
+  </view>
+
+
+  <view  animation='{{animationData}}' class="aa">加载中... </view>
+</view>
+</view>

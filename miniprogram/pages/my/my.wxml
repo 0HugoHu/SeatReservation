@@ -1,0 +1,107 @@
+<!--pages/my/my.wxml-->
+<import src="../../appToast/appToast.wxml"/>
+<template is="toast" data="{{ ..._toast_ }}"/>
+
+<view>
+  <view  class='nav bg-white' style='height:{{navH}}px'>
+    <view class='nav-title'>
+      我的
+    </view>
+  </view>
+
+    <scroll-view scroll-y style='height:200vw'>
+    <view class='hidden'>
+
+      <!-- 正文 -->
+
+<image mode='widthFix' style='position:absolute;z-index:-1;width:100%' src='../../images/my_bg.jpg'></image>
+
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data  type="userAvatarUrl"></open-data>
+  </view>
+  <view class="userinfo-name">
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+
+<view class='card_button'>
+
+<view style='display: flex;justify-content: center'>
+<view style='margin-top:27vw;height:0.3vw;width:80%;background:#dddddd'></view>
+</view>
+
+<view style='flex-direction:row;display: flex;justify-content: center;margin-top:5vw'>
+  <text style='font-size:40rpx;margin-right:21vw'>{{studyTime_0}}</text>
+  <text style='font-size:40rpx'>{{studyTime_total}}</text>
+  <text style='margin-left:21vw;font-size:40rpx'> --</text>
+</view>
+
+<view style='flex-direction:row;display: flex;justify-content: center;margin-top:2vw'>
+  <text style='color:#6f6f6f;margin-right:17vw;font-size:30rpx'>今日</text>
+  <text style='color:#6f6f6f;font-size:30rpx'>共计</text>
+  <text style='margin-left:17vw;color:#6f6f6f;font-size:30rpx'>排名</text>
+</view>
+
+
+</view>
+
+<view  bindtap='my_message' class='card_button' style='margin-top:73vw;height:15vw'>
+  <view style='flex-direction:row;display: flex;'>
+    <image src='../../images/my_message.png' style='position:absolute;margin-top:4.5vw;height:50rpx;width:50rpx;margin-left:5vw'></image>
+    <text style='margin-left:15vw;margin-top:5vw;font-size:32rpx;'>我的消息</text>
+    <image src='../../images/to.png' style='opacity:{{0.3}};position:absolute;margin-top:5vw;height:40rpx;width:40rpx;margin-left:80vw'></image>
+  </view>
+</view>
+
+
+<view  class='card_button' style='margin-top:93vw;height:73vw'>
+  <view style='flex-direction:row;display: flex;'>
+    <image src='../../images/my_ranking.png' style='position:absolute;margin-top:5vw;height:50rpx;width:50rpx;margin-left:5vw'></image>
+    <text bindtap='my_ranking' style='width:100%;margin-left:15vw;margin-top:5vw;font-size:32rpx;'>排行榜</text>
+    <image src='../../images/to.png' style='opacity:{{0.3}};position:absolute;margin-top:5vw;height:40rpx;width:40rpx;margin-left:80vw'></image>
+  </view>
+  
+  <view style='margin-left:10vw;position:absolute;margin-top:4vw;height:0.3vw;width:80%;background:#dddddd'></view>
+
+   <view style='flex-direction:row;display: flex;'>
+    <image src='../../images/my_statistic.png' style='position:absolute;margin-top:8vw;height:50rpx;width:50rpx;margin-left:5vw'></image>
+    <text bindtap='my_statistic'style='width:100%;margin-left:15vw;margin-top:8vw;font-size:32rpx;'>统计</text>
+    <image src='../../images/to.png' style='opacity:{{0.3}};position:absolute;margin-top:8.5vw;height:40rpx;width:40rpx;margin-left:80vw'></image>
+  </view>
+
+  <view style='margin-left:10vw;position:absolute;margin-top:4vw;height:0.3vw;width:80%;background:#dddddd'></view>
+
+   <view style='flex-direction:row;display: flex;'>
+    <image src='../../images/my_help.png' style='position:absolute;margin-top:8vw;height:50rpx;width:50rpx;margin-left:5vw'></image>
+    <text bindtap='my_help' style='width:100%;margin-left:15vw;margin-top:8vw;font-size:32rpx;'>帮助</text>
+    <image src='../../images/to.png' style='opacity:{{0.3}};position:absolute;margin-top:8.5vw;height:40rpx;width:40rpx;margin-left:80vw'></image>
+  </view>
+
+   <view style='margin-left:10vw;position:absolute;margin-top:4vw;height:0.3vw;width:80%;background:#dddddd'></view>
+
+   <view style='flex-direction:row;display: flex;'>
+    <image src='../../images/my_feedback.png' style='position:absolute;margin-top:8vw;height:50rpx;width:50rpx;margin-left:5vw'></image>
+    <text bindtap='my_feedback' style='width:100%;margin-left:15vw;margin-top:8vw;font-size:32rpx;'>反馈</text>
+    <image src='../../images/to.png' style='opacity:{{0.3}};position:absolute;margin-top:8.5vw;height:40rpx;width:40rpx;margin-left:80vw'></image>
+  </view>
+
+    <view style='margin-left:10vw;position:absolute;margin-top:4vw;height:0.3vw;width:80%;background:#dddddd'></view>
+
+   <view style='flex-direction:row;display: flex;'>
+    <image src='../../images/my_setting.png' style='position:absolute;margin-top:8vw;height:50rpx;width:50rpx;margin-left:5vw'></image>
+    <text bindtap='my_setting'style='width:100%;margin-left:15vw;margin-top:8vw;font-size:32rpx;'>设置</text>
+    <image src='../../images/to.png' style='opacity:{{0.3}};position:absolute;margin-top:8.5vw;height:40rpx;width:40rpx;margin-left:80vw'></image>
+  </view>
+</view>
+
+
+
+
+
+  <view style='bottom:0' class='view_shadow'> </view>
+</view>
+
+
+</scroll-view>
+</view>

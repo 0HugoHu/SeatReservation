@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "zan-popup": "dist/popup/index",
+    "dialog": "../../appDialog/appDialog",
+        "dialog2": "../../appDialog2/appDialog2"
+  }
+
+}

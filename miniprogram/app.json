@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/login_0/login_0",
+    "pages/chooseSeatFailed/chooseSeatFailed",
+    "pages/chooseSeatSucceed/chooseSeatSucceed",
+    "pages/initialPage/initialPage",
+    "pages/login/login",
+    "pages/chooseRoom/chooseRoom",
+    "pages/chooseSeat/chooseSeat",
+    "pages/cancel/cancel",
+    "pages/record/record",
+
+    "pages/my_message/my_message",
+    "pages/loading/loading",
+    "pages/my/my",
+    "pages/history/history",
+    "pages/order/order",
+    "appDialog/appDialog",
+    "pages/my_ranking/my_ranking",
+    "pages/my_statistic/my_statistic",
+    "pages/help/help",
+    "pages/feedback/feedback",
+    "pages/my_setting/my_setting",
+    "appDialog2/appDialog2"
+
+
+  ],
+  "window": {
+    "backgroundColor": "#FAFAFA",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FAFAFA",
+    "navigationBarTitleText": "利兹学院座位预约",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#4CB4E7",
+    "list": [
+      {
+        "pagePath": "pages/initialPage/initialPage",
+        "iconPath": "images/init_g.png",
+        "selectedIconPath": "images/init.png",
+        "text": "选座"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/me_g.png",
+        "selectedIconPath": "images/me.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,10 @@
+<!--miniprogram/pages/login_0/login_0.wxml-->
+
+
+
+
+<image style='position:fixed;z-indexd:-10;'mode='scaleToFill'class="bg-image" src="../../images/login_bg.png"></image>
+
+<view style='display:flex;justify-content: center;align-items:center; '>
+<button bindtap='confirm' style='margin-top:160%;width:300rpx;height:100rpx;background:#4CB4E7;color:#fff;font-size:40rpx;font-weight:bold' >开始使用</button>
+</view>

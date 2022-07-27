@@ -1,0 +1,17 @@
+<!--miniprogram/pages/login/login.wxml-->
+
+<image style='position:fixed;z-indexd:-10;'mode='scaleToFill'class="bg-image" src="../../images/login_bg2.png"></image>
+
+<view style='display:flex;justify-content: center;align-items:center; '>
+<view style='margin-top:100%;'class="section">
+  <input style='background:#f9f9f9' bindinput="studentName"  placeholder="请输入姓名"/>
+</view>
+</view>
+
+<view style='display:flex;justify-content: center;align-items:center; '>
+<view style='margin-top:10vw;'class="section">
+  <input style='background:#f9f9f9'bindinput="studentId" type="digit" placeholder="请输入交大学号"/>
+</view>
+</view>
+
+<button bindtap='confirm' style='margin-top:30vw;width:300rpx;height:100rpx;background:#4CB4E7;color:#fff;font-size:40rpx;font-weight:bold' >确认信息</button>

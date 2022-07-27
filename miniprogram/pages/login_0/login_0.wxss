@@ -1,0 +1,15 @@
+/* miniprogram/pages/login_0/login_0.wxss */
+page{
+    width: 100%;
+    height: 100%;
+  }
+  .test-bg{
+    width: 100%;
+    height: 100%;
+    background-color: #70c7da;
+  }
+  .bg-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }

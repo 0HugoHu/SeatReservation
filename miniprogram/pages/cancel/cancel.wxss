@@ -1,0 +1,18 @@
+/* miniprogram/pages/cancel/cancel.wxss */
+.card_button { 
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:0rpx 10rpx 10rpx 2rpx #eeeeee;
+  width: 90%; 
+position: absolute;
+  z-index: 5;
+  height: 50vw;
+  margin-top: 17vw; 
+  margin-bottom: 5vw;
+  margin-right:5vw;
+  margin-left:5vw;
+}
+
+.text_space{
+  letter-spacing:1px;
+}

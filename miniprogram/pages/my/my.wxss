@@ -1,0 +1,104 @@
+/* pages/my/my.wxss */
+.avatar-wrapper {
+  background: #1b82d1;
+  padding: 25px 0;
+}
+
+.avatar-wrapper .avatar {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avatar-wrapper .avatar image {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar-wrapper .text {
+  text-align: center;
+  color: #fff;
+}
+
+.listimg image {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.content{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*分割线样式*/
+.divLine{
+ background: #E0E3DA;
+ width: 100%;
+ height: 5rpx;
+}
+
+.arrows image {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-left: 500rpx;
+}
+
+.card_button { 
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:0rpx 10rpx 10rpx 2rpx #eeeeee;
+  width: 90%; 
+position: absolute;
+  z-index: 5;
+  height: 50vw;
+  margin-top: 17vw; 
+  margin-bottom: 5vw;
+  margin-right:5vw;
+  margin-left:5vw;
+}
+
+.button::after{
+  border: none;
+}
+
+.userinfo {  
+  width: 750rpx;  
+  position: absolute;
+  height: 320rpx;  
+  color: #000;  
+  display: flex;  
+  z-index: 20;
+  flex-direction: column;  
+  align-items: center;  
+
+}  
+  
+.userinfo-avatar {  
+    margin-top:10vw;
+  z-index: 20;
+  position: absolute;
+  overflow:hidden;  
+  width: 160rpx;  
+  height: 160rpx;  
+  border-radius: 50%;  
+}  
+  
+  .userinfo-name {  
+        margin-top:33vw;
+  z-index: 20;
+position: absolute;
+  overflow:hidden;  
+    font-size: 35rpx;
+
+}  
+
+.view_shadow{
+  position: fixed;
+  z-index: 15;
+  width:100%;
+  height:1.5vw;
+  background: linear-gradient(180deg, rgba(0,0,0,0), #dcdcdc);
+}

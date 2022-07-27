@@ -1,0 +1,99 @@
+<!--miniprogram/pages/chooseRoom/chooseRoom.wxml-->
+<import src="../../appToast/appToast.wxml"/>
+<template is="toast" data="{{ ..._toast_ }}"/>
+<view>
+  <view  class='nav bg-white' style='height:{{navH}}px'>
+    <view class='nav-title'>
+      栗子选座
+      <image bindtap='navigationButton' src='../../images/back.png'  style='margin-bottom:3rpx' mode='aspectFit' class='back' ></image> 
+    </view>
+  </view>
+ 
+    <view class='hidden'>
+      <!-- 正文 -->
+
+<view class='cardview'>
+<view class='image_holder'>
+  <image class='image_icon' src='/images/airconditioning.png'></image>
+  <image class='image_icon' src='/images/wifi.png'></image>
+  <image class='image_icon' src='/images/pc_no.png'></image>
+  <image class='image_icon' src='/images/plug.png'></image>
+  <image class='image_icon' src='/images/projector_no.png'></image>
+</view>
+
+<button class='card_choose' bindtap='onRedirect'>选座</button>
+<button class='card_button'> </button>
+<image class='card_image' src='/images/studyroom.png' mode="aspectFill"></image>
+<view class='card_title'>3教学楼 3102</view>
+
+<view class='text_holder'>
+  <view class='card_remain'>余座 </view>
+  <view class='card_remain_number'>27</view>
+</view>
+
+<view class='text_holder'>
+  <view class='card_preference'>剩余率 </view>
+  <view class='card_preference_number'>32%</view>
+</view>
+</view>
+
+
+<view class='cardview'>
+<view class='image_holder2'>
+  <image class='image_icon2' src='/images/airconditioning.png'></image>
+  <image class='image_icon2' src='/images/wifi.png'></image>
+  <image class='image_icon2' src='/images/pc.png'></image>
+  <image class='image_icon2' src='/images/plug.png'></image>
+  <image class='image_icon2' src='/images/projector_no.png'></image>
+</view>
+
+<button class='card_choose2' bindtap='onRedirect2'>选座</button>
+<button class='card_button2'> </button>
+<image class='card_image2' src='/images/seminarroom.png' mode="aspectFill"></image>
+<view class='card_title2'>T191079</view>
+
+<view class='text_holder2'>
+  <view class='card_remain2'>余座 </view>
+  <view class='card_remain_number2'>1</view>
+</view>
+
+<view class='text_holder2'>
+  <view class='card_preference2'>剩余率 </view>
+  <view class='card_preference_number2'>25%</view>
+</view>
+</view>
+
+
+<view class='cardview'>
+<view class='image_holder3'>
+  <image class='image_icon3' src='/images/airconditioning.png'></image>
+  <image class='image_icon3' src='/images/wifi_no.png'></image>
+  <image class='image_icon3' src='/images/pc.png'></image>
+  <image class='image_icon3' src='/images/plug.png'></image>
+  <image class='image_icon3' src='/images/projector.png'></image>
+</view>
+
+<button class='card_choose3' bindtap='onRedirect3'>选座</button>
+<button class='card_button3'> </button>
+<image class='card_image3' src='/images/commitroom.png' mode="aspectFill"></image>
+<view class='card_title3'>9教学楼 9412</view>
+
+<view class='text_holder3'>
+  <view class='card_remain3'>余座 </view>
+  <view class='card_remain_number3'>31</view>
+</view>
+
+<view class='text_holder3'>
+  <view class='card_preference3'>剩余率 </view>
+  <view class='card_preference_number3'>82%</view>
+</view>
+</view>
+
+<view class='view-holder'>
+<view class='view-bottom' style='background-color: #4CB4E7;color: #ffffff'>1</view>
+<view bindtap='content_2' class='view-bottom' style='background-color: #ffffff;'>2</view>
+<view bindtap='content_3' class='view-bottom' style='background-color: #ffffff;'>3</view>
+</view>
+
+</view>
+</view>

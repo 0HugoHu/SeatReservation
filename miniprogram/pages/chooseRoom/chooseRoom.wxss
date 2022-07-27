@@ -1,0 +1,368 @@
+/* miniprogram/pages/chooseRoom/chooseRoom.wxss */
+
+.cardview1{
+
+}
+
+.view-holder{
+width: 100%;
+display: flex; 
+bottom:0;
+position:fixed;
+align-items: center; 
+justify-content: center; 
+}
+
+.view-bottom {
+  flex-direction: row;
+  height: 60rpx;
+  font-size: 30rpx;
+  width: 80rpx;
+  text-align: center;
+  margin-left:17.5rpx;
+  margin-right:17.5rpx;
+  margin-bottom:5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border-radius: 10px;
+  box-shadow:2rpx 2rpx 6rpx 2rpx #dddddd;
+}
+
+.card_image{
+  width:25vw;
+  height:33.3vw;
+  border-radius: 10px;
+  margin-left: 8vw;
+  margin-top: 10vw;
+  box-shadow:2rpx 2rpx 6rpx 2rpx #dddddd;
+  position: fixed;
+  z-index: 2;
+}
+
+.card_button { 
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:5rpx 5rpx 15rpx 2rpx #dddddd;
+  width: 90%; 
+  height: 35vw; 
+  margin-top: 15vw; 
+  margin-right:5vw;
+  margin-left:5vw;
+  z-index: 2;
+  position: fixed;
+}
+
+.card_choose { 
+  border-radius: 30px;
+  background-color: #4CB4E7;
+  width: 20vw; 
+  height: 10vw; 
+  margin-top: 28vw; 
+  margin-left:70vw;
+  z-index: 3;
+  position: fixed;
+  color:#ffffff;
+  font-size: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_choose::after { 
+  border: none;
+}
+
+.card_title{
+  font-size: 35rpx;
+  margin-left: 37vw;
+  margin-top:18vw;
+  color: #000000;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_remain{
+  font-size: 30rpx;
+  margin-left: 37vw;
+  margin-top:27vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_remain_number{
+  font-size: 30rpx;
+  margin-left: 47vw;
+  margin-top:27vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_preference{
+  font-size: 30rpx;
+  margin-left: 37vw;
+  margin-top:33vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_preference_number{
+  font-size: 30rpx;
+  margin-left: 51vw;
+  margin-top:33vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.text_holder{
+  display: flex;
+  position: fixed;
+  z-index: 4;
+}
+
+.image_holder{
+  display: flex;
+  z-index: 3;
+  position: fixed;
+  margin-top: 44vw;
+  margin-left: 32vw;
+}
+
+.image_icon{
+  height: 4vw;
+  width: 4vw;
+  margin-left: 5vw;
+}
+
+
+
+
+.card_image2{
+  width:25vw;
+  height:33.3vw;
+  border-radius: 10px;
+  margin-left: 8vw;
+  margin-top: 60vw;
+  box-shadow:2rpx 2rpx 6rpx 2rpx #dddddd;
+  position: fixed;
+  z-index: 2;
+}
+
+.card_button2 { 
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:5rpx 5rpx 15rpx 2rpx #dddddd;
+  width: 90%; 
+  height: 35vw; 
+  margin-top: 65vw; 
+  margin-right:5vw;
+  margin-left:5vw;
+  z-index: 2;
+  position: fixed;
+}
+
+.card_choose2 { 
+  border-radius: 30px;
+  background-color: #4CB4E7;
+  width: 20vw; 
+  height: 10vw; 
+  margin-top: 78vw; 
+  margin-left:70vw;
+  z-index: 3;
+  position: fixed;
+  color:#ffffff;
+  font-size: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_choose2::after { 
+  border: none;
+}
+
+
+.card_title2{
+  font-size: 35rpx;
+  margin-left: 37vw;
+  margin-top:68vw;
+  color: #000000;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_remain2{
+  font-size: 30rpx;
+  margin-left: 37vw;
+  margin-top:77vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_remain_number2{
+  font-size: 30rpx;
+  margin-left: 47vw;
+  margin-top:77vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_preference2{
+  font-size: 30rpx;
+  margin-left: 37vw;
+  margin-top:83vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_preference_number2{
+  font-size: 30rpx;
+  margin-left: 51vw;
+  margin-top:83vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.text_holder2{
+  display: flex;
+  position: fixed;
+  z-index: 4;
+}
+
+.image_holder2{
+  display: flex;
+  z-index: 3;
+  position: fixed;
+  margin-top: 94vw;
+  margin-left: 32vw;
+}
+
+.image_icon2{
+  height: 4vw;
+  width: 4vw;
+  margin-left: 5vw;
+}
+
+
+
+.card_image3{
+  width:25vw;
+  height:33.3vw;
+  border-radius: 10px;
+  margin-left: 8vw;
+  margin-top: 110vw;
+  box-shadow:2rpx 2rpx 6rpx 2rpx #dddddd;
+  position: fixed;
+  z-index: 2;
+}
+
+.card_button3 { 
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow:5rpx 5rpx 15rpx 2rpx #dddddd;
+  width: 90%; 
+  height: 35vw; 
+  margin-top: 115vw; 
+  margin-right:5vw;
+  margin-left:5vw;
+  z-index: 2;
+  position: fixed;
+}
+
+.card_choose3 { 
+  border-radius: 30px;
+  background-color: #4CB4E7;
+  width: 20vw; 
+  height: 10vw; 
+  margin-top: 128vw; 
+  margin-left:70vw;
+  z-index: 3;
+  position: fixed;
+  color:#ffffff;
+  font-size: 35rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_choose3::after { 
+  border: none;
+}
+
+
+.card_title3{
+  font-size: 35rpx;
+  margin-left: 37vw;
+  margin-top:118vw;
+  color: #000000;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_remain3{
+  font-size: 30rpx;
+  margin-left: 37vw;
+  margin-top:127vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_remain_number3{
+  font-size: 30rpx;
+  margin-left: 47vw;
+  margin-top:127vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_preference3{
+  font-size: 30rpx;
+  margin-left: 37vw;
+  margin-top:133vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.card_preference_number3{
+  font-size: 30rpx;
+  margin-left: 51vw;
+  margin-top:133vw;
+  color: #4b4b4b;
+  position: fixed;
+  z-index: 4;
+}
+
+.text_holder3{
+  display: flex;
+  position: fixed;
+  z-index: 4;
+}
+
+.image_holder3{
+  display: flex;
+  z-index: 3;
+  position: fixed;
+  margin-top: 144vw;
+  margin-left: 32vw;
+}
+
+.image_icon3{
+  height: 4vw;
+  width: 4vw;
+  margin-left: 5vw;
+}
+
+
+
+

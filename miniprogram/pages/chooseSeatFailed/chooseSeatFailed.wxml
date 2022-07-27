@@ -1,0 +1,19 @@
+<!--miniprogram/pages/chooseSeatFailed/chooseSeatFailed.wxml-->
+<!--miniprogram/pages/chooseSeatSucceed/chooseSeatSucceed.wxml-->
+<view>
+  <view  class='nav bg-white' style='height:{{navH}}px'>
+    <view class='nav-title'>
+      选座结果
+    </view>
+  </view>
+ 
+    <view class='hidden'>
+      <!-- 正文 -->
+      <view class='main'  style='flex-direction:column;margin-top:10vw;align-items:center;justify-content: center;display:flex'>
+    <image src='../../images/error.png' style='height:200rpx;width:200rpx; '></image>
+    <text style='margin-top:5vw;font-size:40rpx'>选座失败</text>
+    <text style='margin-top:5vw;font-size:30rpx'>进入选座界面后请及时选座哦</text>
+    <button bindtap='back' style='display:flex;justify-content:center;align-items:center;margin-top:10vw;width:200rpx;height:75rpx;background:#4CB4E7;color:#fff;font-size:30rpx;font-weight:bold' >返回重试</button>
+    </view>
+  </view>
+</view>

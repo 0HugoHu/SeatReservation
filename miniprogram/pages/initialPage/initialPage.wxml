@@ -1,0 +1,47 @@
+<!--miniprogram/pages/initialPage/initialPage.wxml-->
+<view>
+  <view  class='nav bg-white' style='height:{{navH}}px'>
+    <view class='nav-title'>
+      栗子选座
+    </view>
+  </view>
+
+    <view class='hidden'>
+      <!-- 正文 -->
+
+
+<image mode='widthFix' style='width:100%' src='../../images/init_bg.png'></image>
+ <view  style='margin-top:-1.5vw;' class='view_shadow2'> </view>
+
+
+<view class='card_button'>
+<view style='position:absolute;height:0.5vw;margin-left:5vw;margin-top:45vw;width:35vw;background:#eeeeee'></view>
+<view style='position:absolute;height:0.5vw;margin-left:50vw;margin-top:45vw;width:35vw;background:#eeeeee'></view>
+<view style='position:absolute;width:0.5vw;margin-left:45vw;margin-top:5vw;height:35vw;background:#eeeeee'></view>
+<view style='position:absolute;width:0.5vw;margin-left:45vw;margin-top:50vw;height:35vw;background:#eeeeee'></view>
+
+<button bindtap='toChooseSeat' class='button' style='margin-top:26vw;position:absolute;width:43vw;height:43vw;background:rgba(0,0,0,0)'>选座</button>
+
+<image bindtap='toChooseSeat' src='../../images/seat.png' style='margin-left:15vw;margin-top:11vw;position:absolute;width:13vw;height:13vw'></image>
+
+<button bindtap='scanQRCode' class='button' style='margin-left:45vw;margin-top:26vw;position:absolute;width:43vw;height:43vw;background:rgba(0,0,0,0)'>扫码</button>
+
+<image bindtap='scanQRCode' src='../../images/scan.png' style='margin-left:59.5vw;margin-top:10.5vw;position:absolute;width:14vw;height:14vw'></image>
+
+<button bindtap='toRecord' class='button' style='margin-top:69vw;position:absolute;width:43vw;height:43vw;background:rgba(0,0,0,0)'>记录</button>
+
+<image bindtap='toRecord' src='../../images/record.png' style='margin-left:16vw;margin-top:55vw;position:absolute;width:12vw;height:12vw'></image>
+
+<button bindtap='toCancel' class='button' style='margin-left:45vw;margin-top:69vw;position:absolute;width:43vw;height:43vw;background:rgba(0,0,0,0)'>退订</button>
+
+<image bindtap='toCancel' src='../../images/cancel.png' style='margin-left:61vw;margin-top:55.5vw;position:absolute;width:11vw;height:11vw'></image>
+</view>
+
+<view style='margin-left:32vw;display: flex; flex-direction:row;'>
+<image mode='widthFix' style='opacity:{{0.4}};width:12%' src='../../images/init_logo.png'></image>
+<text style='margin-left:3vw;color:#cccccc'>律师函团队</text>
+</view>
+
+  <view style='bottom:0' class='view_shadow'> </view>
+</view>
+</view>
